@@ -61,6 +61,8 @@ table {
 body {
   font-family: Merriweather, 'Times New Roman', serif;
   font-size: 1.125rem;
+  line-height: 2rem;
+  color: #333;
 }
 
 h1, h2 {
@@ -76,13 +78,24 @@ h2 {
   color: #e5127d;
 }
 
-body {
-  line-height: 2rem;
-  color: #333;
-}
 
 .main.header p {
   font-size: 1.125rem;
   letter-spacing: 0.125rem;
   color: #8c8e9b;
+}
+
+.picture {
+  width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* ==== LAYOUT STYLES ==== */
+
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
 }
