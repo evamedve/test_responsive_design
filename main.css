@@ -118,6 +118,25 @@ img,
 	background-color: #42444e;
 }
 
+@media (min-width: 768px) {
+.main-header {
+			position: fixed;
+			top: 0;
+			height: 100%;
+			width: 33.3%;
+  }
+  }
+/* Primary Content Wrapper Styles */
+  
+@media (min-width: 768px) {
+
+	.primary-content {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+}
+
 /* Article Styles */
 .post {
 	width: 95%;
@@ -153,3 +172,4 @@ img,
 	font-size: 1.25rem;
 	color: #8c8e9b;
 }
+  
